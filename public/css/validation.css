@@ -1,0 +1,28 @@
+label.error{
+	color: #cf1414;
+    font-size: 11px;
+}
+input.error,textarea.error{
+	border-color: #cf1414;
+}
+.fileinput-button {
+    position: relative;
+    overflow: hidden;
+    margin: 9px;
+}
+.fileinput-button > input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        cursor: pointer;
+        opacity: 0;
+        filter: alpha(opacity=0);
+    }
+.image-size {
+    width: 50px;
+    height: 50px;
+    //border: 1px solid rgb(168, 163, 163);
+}
